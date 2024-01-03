@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.CodingGay.BlackObfuscator",
+    "module": "main",
+    "version": "2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "main-2.4.jar",
+          "url": "main-2.4.jar",
+          "size": 5384,
+          "sha512": "0c01e0cfd384111c7bb7906cc73e3a0b088a696784cf5c564a78aa589d82ec9c8ef6b5b2a064ec44a4f25026fec8e3e871f5ba02e4b329a1f771cbe474b66e0e",
+          "sha256": "41c20b73f8bbbec75faceda9f1031583012779f93eabb73f1d9a8a2405f5510c",
+          "sha1": "d83a3d5fd8f263cec61f9a146417c2b3273b0334",
+          "md5": "250ffbe70ae2afed529ebd6fe7409392"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-tools",
+          "version": {
+            "requires": "2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "main-2.4.jar",
+          "url": "main-2.4.jar",
+          "size": 5384,
+          "sha512": "0c01e0cfd384111c7bb7906cc73e3a0b088a696784cf5c564a78aa589d82ec9c8ef6b5b2a064ec44a4f25026fec8e3e871f5ba02e4b329a1f771cbe474b66e0e",
+          "sha256": "41c20b73f8bbbec75faceda9f1031583012779f93eabb73f1d9a8a2405f5510c",
+          "sha1": "d83a3d5fd8f263cec61f9a146417c2b3273b0334",
+          "md5": "250ffbe70ae2afed529ebd6fe7409392"
+        }
+      ]
+    }
+  ]
+}

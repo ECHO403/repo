@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.CodingGay.BlackObfuscator",
+    "module": "dex-ir",
+    "version": "2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dex-ir-2.4.jar",
+          "url": "dex-ir-2.4.jar",
+          "size": 238709,
+          "sha512": "07697f840a01372fb1f786860761c7754d23be02cb14646c7ea87945eb36a987129d0009fde3b733f72cff899082b82ff2b42f47e1e7ae83536ec3bc5e669e64",
+          "sha256": "b2d69a564e5333ae9a96235935dace7190be676ad030c0ce60e32f97e1b3971e",
+          "sha1": "48c06f90082dee26dd70f39fe2085e8fba4fdcc5",
+          "md5": "60368b4bef2bf7b581144168535a99ee"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-reader-api",
+          "version": {
+            "requires": "2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dex-ir-2.4.jar",
+          "url": "dex-ir-2.4.jar",
+          "size": 238709,
+          "sha512": "07697f840a01372fb1f786860761c7754d23be02cb14646c7ea87945eb36a987129d0009fde3b733f72cff899082b82ff2b42f47e1e7ae83536ec3bc5e669e64",
+          "sha256": "b2d69a564e5333ae9a96235935dace7190be676ad030c0ce60e32f97e1b3971e",
+          "sha1": "48c06f90082dee26dd70f39fe2085e8fba4fdcc5",
+          "md5": "60368b4bef2bf7b581144168535a99ee"
+        }
+      ]
+    }
+  ]
+}

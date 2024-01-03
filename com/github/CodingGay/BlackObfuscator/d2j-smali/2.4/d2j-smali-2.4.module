@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.CodingGay.BlackObfuscator",
+    "module": "d2j-smali",
+    "version": "2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.antlr",
+          "module": "antlr4",
+          "version": {
+            "requires": "4.9.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "d2j-smali-2.4.jar",
+          "url": "d2j-smali-2.4.jar",
+          "size": 198376,
+          "sha512": "ea3af6ee04fea6858eea3f79620f39c9b2e3c6aceb6810d39c29fc8b3fb5d67002f05224f7612f74e0a06d712736c35b5d4d99de14be27ebd2e8bc877ab0a66a",
+          "sha256": "1e05691ac3fa575604bd1a88590af59f491790b99897f8d816e6b349edc21bff",
+          "sha1": "88574b385d6c99cdf975334fac3498b0b0dc65c0",
+          "md5": "9b78afa4e6bd451d3c6294fbc594262e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.antlr",
+          "module": "antlr4-runtime",
+          "version": {
+            "requires": "4.9.3"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-reader",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-reader-api",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "d2j-base-cmd",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-writer",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "org.antlr",
+          "module": "antlr4",
+          "version": {
+            "requires": "4.9.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "d2j-smali-2.4.jar",
+          "url": "d2j-smali-2.4.jar",
+          "size": 198376,
+          "sha512": "ea3af6ee04fea6858eea3f79620f39c9b2e3c6aceb6810d39c29fc8b3fb5d67002f05224f7612f74e0a06d712736c35b5d4d99de14be27ebd2e8bc877ab0a66a",
+          "sha256": "1e05691ac3fa575604bd1a88590af59f491790b99897f8d816e6b349edc21bff",
+          "sha1": "88574b385d6c99cdf975334fac3498b0b0dc65c0",
+          "md5": "9b78afa4e6bd451d3c6294fbc594262e"
+        }
+      ]
+    }
+  ]
+}

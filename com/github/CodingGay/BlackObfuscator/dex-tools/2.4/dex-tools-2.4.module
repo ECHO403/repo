@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.CodingGay.BlackObfuscator",
+    "module": "dex-tools",
+    "version": "2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dex-tools-2.4.jar",
+          "url": "dex-tools-2.4.jar",
+          "size": 171777,
+          "sha512": "aed8cb79a16eb6860b40bb4d60fa5b7a0449c3af03f6b55215e04daf2b6ba260fb03aa73659b3f19f43c8908cf842e07b6f885b7686355aee94af77306213a45",
+          "sha256": "6ff31012bdc7b507ae60cb4b6dbda02493a06056ec91ab816016fa1f3752ea7b",
+          "sha1": "9b093e7e369cac6fe70449a6b3eecf03fb747b86",
+          "md5": "121c16e0942853a0ac0628496314621b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-translator",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "d2j-smali",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "d2j-jasmin",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-writer",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-reader",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-reader-api",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-ir",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-obfuscator",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "d2j-base-cmd",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dexlib2",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "asm",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dx",
+          "version": {
+            "requires": "2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dex-tools-2.4.jar",
+          "url": "dex-tools-2.4.jar",
+          "size": 171777,
+          "sha512": "aed8cb79a16eb6860b40bb4d60fa5b7a0449c3af03f6b55215e04daf2b6ba260fb03aa73659b3f19f43c8908cf842e07b6f885b7686355aee94af77306213a45",
+          "sha256": "6ff31012bdc7b507ae60cb4b6dbda02493a06056ec91ab816016fa1f3752ea7b",
+          "sha1": "9b093e7e369cac6fe70449a6b3eecf03fb747b86",
+          "md5": "121c16e0942853a0ac0628496314621b"
+        }
+      ]
+    }
+  ]
+}

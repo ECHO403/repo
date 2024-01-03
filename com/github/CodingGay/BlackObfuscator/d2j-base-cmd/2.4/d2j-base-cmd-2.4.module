@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.CodingGay.BlackObfuscator",
+    "module": "d2j-base-cmd",
+    "version": "2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "d2j-base-cmd-2.4.jar",
+          "url": "d2j-base-cmd-2.4.jar",
+          "size": 17782,
+          "sha512": "f8f3cf2c1a4739c5a7ebcde30a411f69875f71886599bbfed5a11fea9580abebb2656b7a1ce76d9982f978ba0c4bd481b00cca42f7835e308cf2d32b20ed65d0",
+          "sha256": "627f509e5233ff0d45f237ad52dcb00e2a6a9bb9266122e8242d847487001238",
+          "sha1": "7a90eb7f1a74ff26b4ba88a1a467078617fc94b3",
+          "md5": "d55f97cecbe41930583c63dc80bf2215"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "d2j-base-cmd-2.4.jar",
+          "url": "d2j-base-cmd-2.4.jar",
+          "size": 17782,
+          "sha512": "f8f3cf2c1a4739c5a7ebcde30a411f69875f71886599bbfed5a11fea9580abebb2656b7a1ce76d9982f978ba0c4bd481b00cca42f7835e308cf2d32b20ed65d0",
+          "sha256": "627f509e5233ff0d45f237ad52dcb00e2a6a9bb9266122e8242d847487001238",
+          "sha1": "7a90eb7f1a74ff26b4ba88a1a467078617fc94b3",
+          "md5": "d55f97cecbe41930583c63dc80bf2215"
+        }
+      ]
+    }
+  ]
+}

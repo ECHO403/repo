@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.CodingGay.BlackObfuscator",
+    "module": "dexlib2",
+    "version": "2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dexlib2-2.4.jar",
+          "url": "dexlib2-2.4.jar",
+          "size": 1274087,
+          "sha512": "7a87dd59d61bf589ce6b920ec62f3bdfd6eaef4ad9f5b8f295a263b631447f8a30954e2f790b1c6afcb16c3bcb3a5a9caf99805fa017da348d4d1de5a435a5e1",
+          "sha256": "0ffb4435864f59105e9cfba865266eea6e1fb84a50f15bc29bc52f1f6f5e4a2d",
+          "sha1": "f885abaad5e61cc25dee716a66001beaf7761682",
+          "md5": "2f69005580107e517ab4d45cf3662192"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "18.0"
+          }
+        },
+        {
+          "group": "org.antlr",
+          "module": "antlr-runtime",
+          "version": {
+            "requires": "3.5.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "stringtemplate"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "dexlib2-2.4.jar",
+          "url": "dexlib2-2.4.jar",
+          "size": 1274087,
+          "sha512": "7a87dd59d61bf589ce6b920ec62f3bdfd6eaef4ad9f5b8f295a263b631447f8a30954e2f790b1c6afcb16c3bcb3a5a9caf99805fa017da348d4d1de5a435a5e1",
+          "sha256": "0ffb4435864f59105e9cfba865266eea6e1fb84a50f15bc29bc52f1f6f5e4a2d",
+          "sha1": "f885abaad5e61cc25dee716a66001beaf7761682",
+          "md5": "2f69005580107e517ab4d45cf3662192"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.CodingGay.BlackObfuscator",
+    "module": "dex-reader-api",
+    "version": "2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dex-reader-api-2.4.jar",
+          "url": "dex-reader-api-2.4.jar",
+          "size": 77954,
+          "sha512": "26642218882b2bf5d947cf3c0b123ee69259164c8d1f5d1513fcd7190c1e1139d81810539d6c49902923595f836b009950d182e80b4bac84237cb3d6418b0761",
+          "sha256": "84991e51520df5e90307cb3e81f8a83e216ac457347ea155e0d57aa66c5f0441",
+          "sha1": "4711252ad2104f4e483485d99f45fffd997a61b5",
+          "md5": "3cc3e9531ec04c3beb223988ecfbd396"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dex-reader-api-2.4.jar",
+          "url": "dex-reader-api-2.4.jar",
+          "size": 77954,
+          "sha512": "26642218882b2bf5d947cf3c0b123ee69259164c8d1f5d1513fcd7190c1e1139d81810539d6c49902923595f836b009950d182e80b4bac84237cb3d6418b0761",
+          "sha256": "84991e51520df5e90307cb3e81f8a83e216ac457347ea155e0d57aa66c5f0441",
+          "sha1": "4711252ad2104f4e483485d99f45fffd997a61b5",
+          "md5": "3cc3e9531ec04c3beb223988ecfbd396"
+        }
+      ]
+    }
+  ]
+}

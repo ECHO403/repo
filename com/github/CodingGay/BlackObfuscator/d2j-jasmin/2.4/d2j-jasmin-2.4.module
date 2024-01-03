@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.CodingGay.BlackObfuscator",
+    "module": "d2j-jasmin",
+    "version": "2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.antlr",
+          "module": "antlr-runtime",
+          "version": {
+            "requires": "3.5.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "stringtemplate"
+            }
+          ]
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "asm",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "d2j-base-cmd",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "org.antlr",
+          "module": "antlr",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "d2j-jasmin-2.4.jar",
+          "url": "d2j-jasmin-2.4.jar",
+          "size": 175010,
+          "sha512": "f1f0388772df46cd4cb5a2fcc963ab65eb5096e751ea7ddc212caf0d3c740d37c738c6d7dd60926e9fa13f8d219f9480672cf354a0d4414ef1b59e456fc4286d",
+          "sha256": "b96d90e65b3aaac73c96326da9cae06db1609067067ffb37ab696e5c69148fb3",
+          "sha1": "d1cd802257bb65a4207884636bfcf490b0edcb3f",
+          "md5": "a96b23d1f2281783370d74cbb66ed89d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.antlr",
+          "module": "antlr-runtime",
+          "version": {
+            "requires": "3.5.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "stringtemplate"
+            }
+          ]
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "asm",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "d2j-base-cmd",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "org.antlr",
+          "module": "antlr",
+          "version": {
+            "requires": "3.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "d2j-jasmin-2.4.jar",
+          "url": "d2j-jasmin-2.4.jar",
+          "size": 175010,
+          "sha512": "f1f0388772df46cd4cb5a2fcc963ab65eb5096e751ea7ddc212caf0d3c740d37c738c6d7dd60926e9fa13f8d219f9480672cf354a0d4414ef1b59e456fc4286d",
+          "sha256": "b96d90e65b3aaac73c96326da9cae06db1609067067ffb37ab696e5c69148fb3",
+          "sha1": "d1cd802257bb65a4207884636bfcf490b0edcb3f",
+          "md5": "a96b23d1f2281783370d74cbb66ed89d"
+        }
+      ]
+    }
+  ]
+}

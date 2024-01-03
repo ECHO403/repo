@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.CodingGay.BlackObfuscator",
+    "module": "dex-translator",
+    "version": "2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dex-translator-2.4.jar",
+          "url": "dex-translator-2.4.jar",
+          "size": 118122,
+          "sha512": "a19b151ca93a59b699bfed511ed14a35468bb785adbc5f69f6cd890f1c3ffe2bd9db8f2fde27cfc5f080ee629edb895e7aecd2fb4d6375f16567d2374362a21a",
+          "sha256": "10e7c1a4e4880c7cc373aa92340058d73c3a44972b63c2601ae68d563216c2b6",
+          "sha1": "e8ca171df9b806ef3a90301acb7c7fc426f6b206",
+          "md5": "5b7cdada5702aac1f8761d1b4c8ee869"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-reader",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-reader-api",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-ir",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-obfuscator",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "d2j-base-cmd",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "asm",
+          "version": {
+            "requires": "2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dex-translator-2.4.jar",
+          "url": "dex-translator-2.4.jar",
+          "size": 118122,
+          "sha512": "a19b151ca93a59b699bfed511ed14a35468bb785adbc5f69f6cd890f1c3ffe2bd9db8f2fde27cfc5f080ee629edb895e7aecd2fb4d6375f16567d2374362a21a",
+          "sha256": "10e7c1a4e4880c7cc373aa92340058d73c3a44972b63c2601ae68d563216c2b6",
+          "sha1": "e8ca171df9b806ef3a90301acb7c7fc426f6b206",
+          "md5": "5b7cdada5702aac1f8761d1b4c8ee869"
+        }
+      ]
+    }
+  ]
+}

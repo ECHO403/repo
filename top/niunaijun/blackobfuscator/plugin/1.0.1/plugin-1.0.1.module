@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "top.niunaijun.blackobfuscator",
+    "module": "plugin",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugin-1.0.1.jar",
+          "url": "plugin-1.0.1.jar",
+          "size": 28885,
+          "sha512": "880a031b22468ee4e070fdfb93e0955628771cb4a10639928b674e2a9083dc4a26832cc069a96bce8ffac7f28232d9dbd618b535f36da8ac8687f8e45471dc6b",
+          "sha256": "ffa581f382989e7806d1de324a6c75850ba42569e9da2b7d29e02a6c1a0cb64d",
+          "sha1": "14c2585e1811b1cf93123c0b62f421334842cbe0",
+          "md5": "77c4159ffb8f799974f2d2b17ac91795"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "transform-api",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.15.1"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-tools",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-translator",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "d2j-smali",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "d2j-jasmin",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-writer",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-reader",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-reader-api",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-ir",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-obfuscator",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "d2j-base-cmd",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dexlib2",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "asm",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dx",
+          "version": {
+            "requires": "2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-1.0.1.jar",
+          "url": "plugin-1.0.1.jar",
+          "size": 28885,
+          "sha512": "880a031b22468ee4e070fdfb93e0955628771cb4a10639928b674e2a9083dc4a26832cc069a96bce8ffac7f28232d9dbd618b535f36da8ac8687f8e45471dc6b",
+          "sha256": "ffa581f382989e7806d1de324a6c75850ba42569e9da2b7d29e02a6c1a0cb64d",
+          "sha1": "14c2585e1811b1cf93123c0b62f421334842cbe0",
+          "md5": "77c4159ffb8f799974f2d2b17ac91795"
+        }
+      ]
+    }
+  ]
+}

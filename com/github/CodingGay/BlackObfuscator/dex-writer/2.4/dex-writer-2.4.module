@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.CodingGay.BlackObfuscator",
+    "module": "dex-writer",
+    "version": "2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dex-writer-2.4.jar",
+          "url": "dex-writer-2.4.jar",
+          "size": 105360,
+          "sha512": "b5f2d03a06d830cbe2e749a51398aa18a91ce531bab653002bdfced1fd65dcff1f2f1568d62e7cc2c59a35e2fe0013aeab41e38700793e6640da58422d077886",
+          "sha256": "394e9f5f6e9218ae785dd1b3975b2196c11a6c1be400c2c694bd7983a63d8cc4",
+          "sha1": "8b59f5fad0396283acbf208e93e8266a0f0bf0c3",
+          "md5": "e846b06ea2c9d3b3ea7b4b9c8c900de0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-reader-api",
+          "version": {
+            "requires": "2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dex-writer-2.4.jar",
+          "url": "dex-writer-2.4.jar",
+          "size": 105360,
+          "sha512": "b5f2d03a06d830cbe2e749a51398aa18a91ce531bab653002bdfced1fd65dcff1f2f1568d62e7cc2c59a35e2fe0013aeab41e38700793e6640da58422d077886",
+          "sha256": "394e9f5f6e9218ae785dd1b3975b2196c11a6c1be400c2c694bd7983a63d8cc4",
+          "sha1": "8b59f5fad0396283acbf208e93e8266a0f0bf0c3",
+          "md5": "e846b06ea2c9d3b3ea7b4b9c8c900de0"
+        }
+      ]
+    }
+  ]
+}

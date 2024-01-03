@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.CodingGay.BlackObfuscator",
+    "module": "dex-obfuscator",
+    "version": "2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "dex-obfuscator-2.4.jar",
+          "url": "dex-obfuscator-2.4.jar",
+          "size": 47194,
+          "sha512": "bffe8f1f340374c64e53d5d462a8ae1810f5bbd6fac22a77a4a738d87ddb7700447bfedbe734e3fe45e9a38599de2beaf9e0af760b7c790c67a1a83db9e5ff7d",
+          "sha256": "9f1a853b685078532836e8ac27975e8df46771847e5073458a5914a31055cd47",
+          "sha1": "9c104dcec25a04c3a5ee66f344100a72ead05159",
+          "md5": "e2dcf8229e69fca6f9b3d390a81706a9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-reader-api",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "dex-ir",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.github.CodingGay.BlackObfuscator",
+          "module": "asm",
+          "version": {
+            "requires": "2.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dex-obfuscator-2.4.jar",
+          "url": "dex-obfuscator-2.4.jar",
+          "size": 47194,
+          "sha512": "bffe8f1f340374c64e53d5d462a8ae1810f5bbd6fac22a77a4a738d87ddb7700447bfedbe734e3fe45e9a38599de2beaf9e0af760b7c790c67a1a83db9e5ff7d",
+          "sha256": "9f1a853b685078532836e8ac27975e8df46771847e5073458a5914a31055cd47",
+          "sha1": "9c104dcec25a04c3a5ee66f344100a72ead05159",
+          "md5": "e2dcf8229e69fca6f9b3d390a81706a9"
+        }
+      ]
+    }
+  ]
+}

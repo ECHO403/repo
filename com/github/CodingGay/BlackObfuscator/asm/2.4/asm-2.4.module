@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.CodingGay.BlackObfuscator",
+    "module": "asm",
+    "version": "2.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "asm-2.4.jar",
+          "url": "asm-2.4.jar",
+          "size": 390962,
+          "sha512": "36fe8ebafce346f989404b9cce1ca0db058f5dc7fd3dfe97aca1af556124275e8ee58fa3a4815bd93eff0551cb06215391868c14175f7362fa30559ddefdda06",
+          "sha256": "4c933184fce6e5bb0dbc3f98807887d3025ef3882158e4d9ed9fa7d906d972a5",
+          "sha1": "adf0d9fe8a6ef4b6ef64e5db94e7ecc4e24bc4c8",
+          "md5": "e00a796221d48b17fb29228b70ecd06b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asm-2.4.jar",
+          "url": "asm-2.4.jar",
+          "size": 390962,
+          "sha512": "36fe8ebafce346f989404b9cce1ca0db058f5dc7fd3dfe97aca1af556124275e8ee58fa3a4815bd93eff0551cb06215391868c14175f7362fa30559ddefdda06",
+          "sha256": "4c933184fce6e5bb0dbc3f98807887d3025ef3882158e4d9ed9fa7d906d972a5",
+          "sha1": "adf0d9fe8a6ef4b6ef64e5db94e7ecc4e24bc4c8",
+          "md5": "e00a796221d48b17fb29228b70ecd06b"
+        }
+      ]
+    }
+  ]
+}
